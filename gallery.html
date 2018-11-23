@@ -1,0 +1,164 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Funky Splashbacks Gallery</title>
+<meta name="keywords"content="funky splashbacks," />
+<meta name="description"content="Gallery for Funky Splashbacks"  />
+<meta name="robots" content="index,follow"/>
+<meta name="googlebot" content="NOODP"/>
+<meta name="Author" content="ITsECPC"/>
+<link rel="stylesheet" href="fs1.css" type="text/css"/>
+<link rel="stylesheet" href="css/lightbox.css" type="text/css" media="screen" />
+ 
+<script src="js/prototype.js" type="text/javascript"></script>
+<script src="js/scriptaculous.js?load=effects,builder" type="text/javascript"></script>
+<script src="js/lightbox.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+<!--
+function FP_swapImgRestore() {//v1.0
+ var doc=document,i; if(doc.$imgSwaps) { for(i=0;i<doc.$imgSwaps.length;i++) {
+  var elm=doc.$imgSwaps[i]; if(elm) { elm.src=elm.$src; elm.$src=null; } } 
+  doc.$imgSwaps=null; }
+}
+
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
+</head>
+
+<body onload="FP_preloadImgs(/*url*/'images/home_but_lt.gif',/*url*/'images/about_but_lt.gif',/*url*/'images/gallery_but_lt.gif',/*url*/'images/contact_but_lt.gif')">
+<div id="wrapper">
+<div id="header">
+	<br />
+	<img alt="Funky Splashbacks" height="224" src="images/header.png" width="999" /></div>
+<div id="content" style="height:1180px;">
+<div id="menu_buttons">
+	<a href="index.html">
+	<img class="menu" alt="Home" height="189" src="images/home_but.gif" width="235" id="img1" onmouseout="FP_swapImgRestore()" onmouseover="FP_swapImg(1,1,/*id*/'img1',/*url*/'images/home_but_lt.gif')" /></a><a href="about.html"><img class="menu" alt="About" height="189" src="images/about_but.gif" width="235" id="img2" onmouseout="FP_swapImgRestore()" onmouseover="FP_swapImg(1,1,/*id*/'img2',/*url*/'images/about_but_lt.gif')" /></a>
+	<a href="gallery.html">
+	<img class="menu" alt="Gallery" height="189" src="images/gallery_but.gif" width="235" id="img3" onmouseout="FP_swapImgRestore()" onmouseover="FP_swapImg(1,1,/*id*/'img3',/*url*/'images/gallery_but_lt.gif')" /><a href="contact.html"><img class="menu" alt="Contact" height="189" src="images/contact_but.gif" width="235" id="img4" onmouseout="FP_swapImgRestore()" onmouseover="FP_swapImg(1,1,/*id*/'img4',/*url*/'images/contact_but_lt.gif')" /></a></a></div>
+<div id="content_text">
+<h1>Funky Splashbacks Gallery</h1><br/>
+<div id="gallery">
+
+
+	<table cellpadding="0" cellspacing="14" style="width: 100%">
+			<tr>
+			<td>
+			<a href="images/gallery_std/Bright-circles.jpg" rel="lightbox[splash]" title="Bright  Circles">
+			<img alt="Bright Circles" height="125" src="images/gallery_sml/Bright-circles.jpg" width="125" class="style1" /></a></td>
+			<td>
+			<a href="images/gallery_std/blue_waves.jpg" rel="lightbox[splash]" title="Blue Waves">
+			<img alt="Blue Waves" height="125" src="images/gallery_sml/blue_waves.jpg" width="125" class="style1" /></a></td>
+			<td>
+			<a href="images/gallery_std/purple_swirls_waves.jpg" rel="lightbox[splash]" title="Purple Swirls and Waves">
+			<img alt="Purple Swirls and Waves" height="125" src="images/gallery_sml/purple_swirls_waves.jpg" width="125" class="style1" /></a></td>
+			<td>
+			<a href="images/gallery_std/red_circles2_1.jpg" rel="lightbox[splash]" title="Red Circles 2">
+			<img alt="Red Circles 2" height="125" src="images/gallery_sml/red_circles2_1.jpg" width="125" class="style1" /></a></td>
+		</tr>
+		
+
+		<tr>
+			<td>
+			<a href="images/gallery_std/Blue_single_swirl.jpg" rel="lightbox[splash]" title="Blue Single Swirl">
+			<img alt="Blue Single Swirl" height="125" src="images/gallery_sml/Blue_single_swirl.jpg" width="125" class="style1" /></a></td>
+			<td>
+			<a href="images/gallery_std/blue_splashes.jpg" rel="lightbox[splash]" title="Blue Splashes">
+			<img alt="Blue Splashes" height="125" src="images/gallery_sml/blue_splashes.jpg" width="125" class="style1" /></a></td>
+			<td>
+			<a href="images/gallery_std/Blue-swirls.jpg" rel="lightbox[splash]" title="Blue Swirls">
+			<img alt="Blue Swirls" height="125" src="images/gallery_sml/Blue-swirls.jpg" width="125" class="style1" /></a></td>
+			<td>
+			<a href="images/gallery_std/Bright-swirls.jpg" rel="lightbox[splash]" title="Bright Swirls">
+			<img alt="Bright Swirls" height="125" src="images/gallery_sml/Bright-swirls.jpg" width="125" class="style1" /></a></td>
+		</tr>
+		<tr>
+			<td>
+			<a href="images/gallery_std/Chick.jpg" rel="lightbox[splash]" title="Chick">
+			<img alt="Chick" height="125" src="images/gallery_sml/Chick.jpg" width="125" class="style1" /></a></td>
+			<td>
+			<a href="images/gallery_std/Fish.jpg"rel="lightbox[splash]" title="Fish" >
+			<img alt="Fish" height="125" src="images/gallery_sml/Fish.jpg" width="125" class="style1" /></a></td>
+			<td>
+			<a href="images/gallery_std/Fritillarias.jpg" rel="lightbox[splash]" title="Fritillarias">
+			<img alt="Fritillarias" height="125" src="images/gallery_sml/Fritillarias.jpg" width="125" class="style1" /></a></td>
+			<td>
+			<a href="images/gallery_std/Green-shimmer.jpg" rel="lightbox[splash]" title="Green Shimmer">
+			<img alt="Green Shimmer" height="125" src="images/gallery_sml/Green-shimmer.jpg" width="125" class="style1" /></a></td>
+		</tr>
+		<tr>
+			<td>
+			<a href="images/gallery_std/Kiwi-swirl.jpg" rel="lightbox[splash]" title="Kiwi Swirl">
+			<img alt="Kiwi Swirl" height="125" src="images/gallery_sml/Kiwi-swirl.jpg" width="125" class="style1" /></a></td>
+			<td>
+			<a href="images/gallery_std/Multi-swirls.jpg" rel="lightbox[splash]" title="Multi Swirls">
+			<img alt="Multi Swirls" height="125" src="images/gallery_sml/Multi-swirls.jpg" width="125" class="style1" /></a></td>
+			<td>
+			<a href="images/gallery_std/purple_waves1.jpg" rel="lightbox[splash]" title="Purple Waves">
+			<img alt="Purple Waves" height="125" src="images/gallery_sml/purple_waves1.jpg" width="125" class="style1" /></a></td>
+			<td>
+			<a href="images/gallery_std/Purple-waves.jpg" rel="lightbox[splash]" title="Purple Waves">
+			<img alt="Purple Waves" height="125" src="images/gallery_sml/Purple-waves.jpg" width="125" class="style1" /></a></td>
+		</tr>
+		<tr>
+			<td>
+			<a href="images/gallery_std/red_circles.jpg" rel="lightbox[splash]" title="Red Circles">
+			<img alt="Red Swirls" height="125" src="images/gallery_sml/red_circles.jpg" width="125" class="style1" /></a></td>
+			<td>
+			<a href="images/gallery_std/Red-cornfield.jpg" rel="lightbox[splash]" title="Red Cornfield">
+			<img alt="Red Cornfield" height="125" src="images/gallery_sml/Red-cornfield.jpg" width="125" class="style1" /></a></td>
+			<td>
+			<a href="images/gallery_std/Red-splash.jpg" rel="lightbox[splash]" title="Red Splash">
+			<img alt="Red Splash" height="125" src="images/gallery_sml/Red-splash.jpg" width="125" class="style1" /></a></td>
+			<td>
+			<a href="images/gallery_std/Welsh-dragon.jpg" rel="lightbox[splash]" title="Welsh Dragon">
+			<img alt="Welsh Dragon" height="125" src="images/gallery_sml/Welsh-dragon.jpg" width="125" class="style1" /></a></td>
+		</tr>
+
+	</table>
+
+
+</div>
+<h1>Other Media</h1>
+<p>Click the following links to review magazine articles about Funky Splashbacks</p>
+<p><a href="Out%20&%20About.pdf">Out &amp; About Magazine</a></p>
+<p><a href="Scottish%20Field.pdf">Scottish Field Magazine</a></p>
+<p>For more information or to book an appointment, call 01635 250701 or 07876 718705, alternatively email 
+				<a href="mailto:jo@funkysplashbacks.com?subject=Website Enquiry">jo@funkysplashbacks.com</a></p>
+
+</div>
+</div>
+
+<div id="footer">
+<div id="credit">Site designed and created by 
+	<a class="small" href="http://www.itsecpc.co.uk" target="_blank">ITsECPC</a></div>
+
+</div>
+
+</div>
+</body>
+
+</html>

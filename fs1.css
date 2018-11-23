@@ -1,0 +1,173 @@
+﻿body{
+	font-family: tahoma;
+	color: #ffffff;
+	line-height: 1.166;	
+	margin-top: 0px;
+	padding: 0px;
+	background-image:url('images/bg1.jpg');
+	
+}
+#wrapper{
+	width:999px;
+	height:900px;
+	margin:auto;
+}
+#header{
+	width:999px;
+}
+#credit{
+	width:880px;
+	height:30px;
+	margin-left:90px;
+	color:#7e17a1;
+	font-family:Tahoma;
+	font-size:9pt;
+	text-align:right;
+}
+
+#menu_buttons{
+	width:235px;
+	height:780px;
+	margin:10px 35px 10px 10px;
+	float:right;
+	
+}
+#pic_box2{
+	width:290px;
+	height:422px;
+	margin:25px 0px 0px 0px;
+	float:right;
+	
+}
+img.content{
+	border:2px #7e17a1 solid;
+	margin-top:10px;
+}
+img.menu{
+	border:0px #ffffff solid;
+	margin-bottom:20px;
+}
+
+#content{
+	width:999px;
+	height:880px;
+	background-image:url('images/content_bg.png');
+}
+#content_text{
+	width:600px;
+	margin-left:85px;
+	float:left;
+}
+
+#footer{
+	width:999px;height:35px;
+	background-image:url('images/footer.png');
+	
+}
+#gallery{
+	width:600px;
+	height:730px;
+	background-image: url('images/gallery_bg.gif');
+}
+a{
+	color:#433b6c;
+	text-decoration: none;
+	font-size:11pt;
+}
+
+a:link{
+	color:#433b6c;
+	text-decoration: none;
+	font-size:11pt;
+}
+
+a:visited{
+	color:#433b6c;
+	text-decoration: none;
+	font-size:11pt;
+}
+
+a:hover{
+	color:#fa0925;
+	text-decoration: underline;
+	font-size:11pt;
+}
+a{
+	color:#433b6c;
+	text-decoration: none;
+	font-size:11pt;
+}
+
+a:gal{
+	color:#433b6c;
+	text-decoration: none;
+	font-size:11pt;
+}
+
+a:visited.gal{
+	color:#433b6c;
+	text-decoration: none;
+	font-size:11pt;
+}
+
+a:hover.gal{
+		border:2px yellow solid:
+}
+
+a.small{
+	color:#7e17a1;
+	text-decoration: none;
+	font-size:9pt;
+}
+
+a:link.small{
+	color:#7e17a1;
+	text-decoration: none;
+	font-size:9pt;
+}
+
+a:visited.small{
+	color:#7e17a1;
+	text-decoration: none;
+	font-size:9pt;
+}
+
+a:hover.small{
+	color:Navy;
+	text-decoration: underline;
+	font-size:9pt;
+}
+
+h1{
+ font-family: Tahoma;
+ font-size: 16pt;
+ font-weight:bold;
+ color: #7e17a1;
+ text-align:left;
+ margin-left:5px;
+ margin-bottom:0px;
+ width:400px;
+}
+
+
+p{
+	font-family:tahoma;
+	width:590px;
+	font-size:11pt;
+	font-weight:normal;
+	color:#7e17a1;
+	margin:15px 0px 0px 5px;
+}
+
+
+ul{
+	font-family:tahoma;
+	font-size:11pt;
+	font-weight:normal;
+	color:#7e17a1;
+	line-height:1.8;
+	list-style:square;
+	margin-left:30px;
+	width:560px;
+}
+
