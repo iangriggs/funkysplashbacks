@@ -2,84 +2,135 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-<title>Funky Splashbacks | Kitchen Splashbacks</title>
-<meta name="keywords"content="funky splashbacks, kitchen splashbacks, newbury, berkshire," />
-<meta name="description"content="About Funky Splashbacks producers and installers of kitchen and bathroom splashbacks."  />
-<meta name="robots" content="index,follow"/>
-<meta name="googlebot" content="NOODP"/>
-<meta name="Author" content="ITsECPC"/>
-<link rel="stylesheet" href="fs1.css" type="text/css"/>
-<style type="text/css">
-</style>
-<script type="text/javascript">
-<!--
-function FP_swapImgRestore() {//v1.0
- var doc=document,i; if(doc.$imgSwaps) { for(i=0;i<doc.$imgSwaps.length;i++) {
-  var elm=doc.$imgSwaps[i]; if(elm) { elm.src=elm.$src; elm.$src=null; } } 
-  doc.$imgSwaps=null; }
-}
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+	<title>Funky Splashbacks | Kitchen Splashbacks</title>
+	<meta name="keywords" content="funky splashbacks, kitchen splashbacks, newbury, berkshire," />
+	<meta name="description" content="About Funky Splashbacks producers and installers of kitchen and bathroom splashbacks." />
+	<meta name="robots" content="index,follow" />
+	<meta name="googlebot" content="NOODP" />
+	<meta name="Author" content="ITsECPC" />
+	<link rel="stylesheet" href="fs1.css" type="text/css" />
+	<style type="text/css">
+	</style>
+	<script type="text/javascript">
+		<!--
+		function FP_swapImgRestore() { //v1.0
+			var doc = document,
+				i;
+			if (doc.$imgSwaps) {
+				for (i = 0; i < doc.$imgSwaps.length; i++) {
+					var elm = doc.$imgSwaps[i];
+					if (elm) {
+						elm.src = elm.$src;
+						elm.$src = null;
+					}
+				}
+				doc.$imgSwaps = null;
+			}
+		}
 
-function FP_swapImg() {//v1.0
- var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
- n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
- elm.$src=elm.src; elm.src=args[n+1]; } }
-}
+		function FP_swapImg() { //v1.0
+			var doc = document,
+				args = arguments,
+				elm, n;
+			doc.$imgSwaps = new Array();
+			for (n = 2; n < args.length; n += 2) {
+				elm = FP_getObjectByID(args[n]);
+				if (elm) {
+					doc.$imgSwaps[doc.$imgSwaps.length] = elm;
+					elm.$src = elm.src;
+					elm.src = args[n + 1];
+				}
+			}
+		}
 
-function FP_preloadImgs() {//v1.0
- var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
- for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
-}
+		function FP_preloadImgs() { //v1.0
+			var d = document,
+				a = arguments;
+			if (!d.FP_imgs) d.FP_imgs = new Array();
+			for (var i = 0; i < a.length; i++) {
+				d.FP_imgs[i] = new Image;
+				d.FP_imgs[i].src = a[i];
+			}
+		}
 
-function FP_getObjectByID(id,o) {//v1.0
- var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
- else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
- if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
- for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
- f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
- for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
- return null;
-}
-// -->
-</script>
+		function FP_getObjectByID(id, o) { //v1.0
+			var c, el, els, f, m, n;
+			if (!o) o = document;
+			if (o.getElementById) el = o.getElementById(id);
+			else if (o.layers) c = o.layers;
+			else if (o.all) el = o.all[id];
+			if (el) return el;
+			if (o.id == id || o.name == id) return o;
+			if (o.childNodes) c = o.childNodes;
+			if (c)
+				for (n = 0; n < c.length; n++) {
+					el = FP_getObjectByID(id, c[n]);
+					if (el) return el;
+				}
+			f = o.forms;
+			if (f)
+				for (n = 0; n < f.length; n++) {
+					els = f[n].elements;
+					for (m = 0; m < els.length; m++) {
+						el = FP_getObjectByID(id, els[n]);
+						if (el) return el;
+					}
+				}
+			return null;
+		}
+		// -->
+	</script>
 </head>
 
 <body onload="FP_preloadImgs(/*url*/'images/home_but_lt.gif',/*url*/'images/about_but_lt.gif',/*url*/'images/gallery_but_lt.gif',/*url*/'images/contact_but_lt.gif')">
-<div id="wrapper">
-<div id="header">
-	<img alt="Funky Splashbacks" height="224" src="images/header.png" width="999" /></div>
-<div id="content">
-<div id="menu_buttons">
-	<a href="index.html">
-	<img class="menu" alt="Home" height="189" src="images/home_but.gif" width="235" id="img1" onmouseout="FP_swapImgRestore()" onmouseover="FP_swapImg(1,1,/*id*/'img1',/*url*/'images/home_but_lt.gif')" /></a><a href="about.html"><img class="menu" alt="About" height="189" src="images/about_but.gif" width="235" id="img2" onmouseout="FP_swapImgRestore()" onmouseover="FP_swapImg(1,1,/*id*/'img2',/*url*/'images/about_but_lt.gif')" /></a>
-	<a href="gallery.html">
-	<img class="menu" alt="Gallery" height="189" src="images/gallery_but.gif" width="235" id="img3" onmouseout="FP_swapImgRestore()" onmouseover="FP_swapImg(1,1,/*id*/'img3',/*url*/'images/gallery_but_lt.gif')" /></a><a href="contact.html"><img class="menu" alt="Contact" height="189" src="images/contact_but.gif" width="235" id="img4" onmouseout="FP_swapImgRestore()" onmouseover="FP_swapImg(1,1,/*id*/'img4',/*url*/'images/contact_but_lt.gif')" /></a></div>
-<div id="content_text">
-<h1>About Funky Splashbacks</h1>
-<p>Funky Splashbacks is a small family business owned and run by myself, Jo Omar 
-and my partner Matt Watts from our home studio in Newbury, Berkshire.</p>
-<p>I am an artist and designer, graduated from Loughborough Art college with a degree in Printed Textiles. Matt is a 
-financial advisor who is also very practical so he fits the splashbacks, with a little help from me......"right a bit....left a bit....' that sort of thing! He also builds the stands for any shows we do and helps with the sales and 
-marketing.</p>
-<p><img class="content" alt="Funky Splashbacks Show Stand" height="392" src="images/about.jpg" width="586" /></p>
-<p>We started 'Funky Splashbacks' after struggling to find a splashback for our own kitchen, all that seemed to be 
-available were tiles or stainless steel. We had a blank space above the cooker for a year that was getting a bit grubby 
-so I had the idea to paint something on the wall but also wanted to use glass as it is so durable and easy to keep clean. 
-This idea soon evolved, after a bit of trail and error, into painting a design onto the back of the glass.</p>
-<p>We had a fantastic response from whoever saw it and soon we were doing commissions.</p>
-<p>I love designing and making something that is a piece of art and also very practical!</p>
-<p>Jo Omar</p>
+	<div id="wrapper">
+		<div id="header">
+			<img alt="Funky Splashbacks" height="224" src="images/header.png" width="999" /></div>
+		<div id="content">
+			<div id="menu_buttons">
+				<a href="index.html">
+					<img class="menu" alt="Home" height="189" src="images/home_but.gif" width="235" id="img1" onmouseout="FP_swapImgRestore()"
+					 onmouseover="FP_swapImg(1,1,/*id*/'img1',/*url*/'images/home_but_lt.gif')" /></a><a href="about.html"><img class="menu"
+					 alt="About" height="189" src="images/about_but.gif" width="235" id="img2" onmouseout="FP_swapImgRestore()"
+					 onmouseover="FP_swapImg(1,1,/*id*/'img2',/*url*/'images/about_but_lt.gif')" /></a>
+				<a href="gallery.html">
+					<img class="menu" alt="Gallery" height="189" src="images/gallery_but.gif" width="235" id="img3" onmouseout="FP_swapImgRestore()"
+					 onmouseover="FP_swapImg(1,1,/*id*/'img3',/*url*/'images/gallery_but_lt.gif')" /></a><a href="contact.html"><img
+					 class="menu" alt="Contact" height="189" src="images/contact_but.gif" width="235" id="img4" onmouseout="FP_swapImgRestore()"
+					 onmouseover="FP_swapImg(1,1,/*id*/'img4',/*url*/'images/contact_but_lt.gif')" /></a></div>
+			<div id="content_text">
+				<h1>About Funky Splashbacks</h1>
+				<p>Funky Splashbacks is a small family business owned and run by myself, Jo Omar
+					and my partner Matt Watts from our home studio in Newbury, Berkshire.</p>
+				<p>I am an artist and designer, graduated from Loughborough Art college with a degree in Printed Textiles. Matt is
+					a
+					financial advisor who is also very practical so he fits the splashbacks, with a little help from me......"right a
+					bit....left a bit....' that sort of thing! He also builds the stands for any shows we do and helps with the sales
+					and
+					marketing.</p>
+				<p><img class="content" alt="Funky Splashbacks Show Stand" height="392" src="images/about.jpg" width="586" /></p>
+				<p>We started 'Funky Splashbacks' after struggling to find a splashback for our own kitchen, all that seemed to be
+					available were tiles or stainless steel. We had a blank space above the cooker for a year that was getting a bit
+					grubby
+					so I had the idea to paint something on the wall but also wanted to use glass as it is so durable and easy to keep
+					clean.
+					This idea soon evolved, after a bit of trail and error, into painting a design onto the back of the glass.</p>
+				<p>We had a fantastic response from whoever saw it and soon we were doing commissions.</p>
+				<p>I love designing and making something that is a piece of art and also very practical!</p>
+				<p>Jo Omar</p>
 
-</div>
-</div>
+			</div>
+			<div style="clear:both"></div>
+		</div>
 
-<div id="footer">
-<div id="credit">Site designed and created by 
-	<a class="small" href="http://www.itsecpc.co.uk" target="_blank">ITsECPC</a></div>
+		<div id="footer">
+			<div id="credit">Site designed and created by
+				<a class="small" href="http://www.itsecpc.co.uk" target="_blank">ITsECPC</a></div>
 
-</div>
+		</div>
 
-</div>
+	</div>
 </body>
 
 </html>
